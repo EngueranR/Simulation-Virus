@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0"
+            prefWidth="377.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="FXML.Controller">
+    <children>
+        <Label id="labelNbPers" fx:id="labelNbPers" alignment="TOP_RIGHT" contentDisplay="RIGHT" layoutY="20.0"
+               prefHeight="19.0" prefWidth="202.0" text="Nombre de personnes" textAlignment="RIGHT" textOverrun="CLIP">
+            <font>
+                <Font name="Ubuntu" size="14.0"/>
+            </font>
+        </Label>
+        <Label id="labelNbPersSaines" fx:id="labelNbPersSaines" alignment="TOP_RIGHT" contentDisplay="RIGHT"
+               layoutX="21.0" layoutY="62.0" text="Nombre de personnes saines" textAlignment="RIGHT">
+            <font>
+                <Font name="Ubuntu" size="14.0"/>
+            </font>
+        </Label>
+        <Button id="btnLancer" fx:id="btnLancer" layoutX="47.0" layoutY="232.0" mnemonicParsing="false"
+                prefHeight="37.0" prefWidth="110.0" text="Lancer" textAlignment="CENTER" textFill="WHITE" onAction="#lancer">
+            <font>
+                <Font name="Ubuntu" size="14.0"/>
+            </font>
+        </Button>
+        <Button id="btnQuitter" fx:id="btnQuitter" layoutX="221.0" layoutY="232.0" mnemonicParsing="false"
+                prefHeight="37.0" prefWidth="110.0" text="Quitter" textAlignment="CENTER" textFill="WHITE" onAction="#quitter">
+            <font>
+                <Font name="Ubuntu" size="14.0"/>
+            </font>
+        </Button>
+        <TextField id="textFieldNbPers" fx:id="textFieldNbPers" editable="false" layoutX="220.0" layoutY="17.0"
+                   prefHeight="26.0" prefWidth="130.0">
+            <font>
+                <Font name="Ubuntu" size="14.0"/>
+            </font>
+        </TextField>
+        <TextField id="textFieldNbSaines" fx:id="textFieldNbSaines" editable="false" layoutX="220.0" layoutY="57.0"
+                   prefHeight="26.0" prefWidth="130.0">
+            <font>
+                <Font name="Ubuntu" size="14.0"/>
+            </font>
+        </TextField>
+        <Label id="labelNbPersInfectees" fx:id="labelNbPersInfectees" alignment="TOP_RIGHT" contentDisplay="RIGHT"
+               layoutX="2.0" layoutY="107.0" text="Nombre de personnes infectées" textAlignment="RIGHT">
+            <font>
+                <Font name="Ubuntu" size="14.0"/>
+            </font>
+        </Label>
+        <TextField id="textFieldNbInfectees" fx:id="textFieldNbInfectees" editable="false" layoutX="220.0"
+                   layoutY="104.0" prefHeight="26.0" prefWidth="130.0">
+            <font>
+                <Font name="Ubuntu" size="14.0"/>
+            </font>
+        </TextField>
+        <Label id="labelTour" fx:id="labelTour" alignment="TOP_RIGHT" contentDisplay="RIGHT" layoutX="174.0"
+               layoutY="155.0" text="Tour" textAlignment="RIGHT">
+            <font>
+                <Font name="Ubuntu" size="14.0"/>
+            </font>
+        </Label>
+        <TextField id="textFieldTour" fx:id="textFieldTour" editable="false" layoutX="220.0" layoutY="150.0"
+                   prefHeight="26.0" prefWidth="130.0">
+            <font>
+                <Font name="Ubuntu" size="14.0"/>
+            </font>
+        </TextField>
+    </children>
+</AnchorPane>
